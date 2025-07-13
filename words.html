@@ -2,18 +2,76 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Words</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Blog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav {
+      background: #444;
+      text-align: center;
+    }
+    nav a {
+      display: inline-block;
+      color: #fff;
+      padding: 10px 15px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background: #555;
+    }
+    article {
+      margin-bottom: 20px;
+    }
+    article h2 {
+      color: #333;
+    }
+    article p {
+      color: #666;
+    }
+  </style>
 </head>
 <body>
-  <h1>Words</h1>
-  <ul>
-    <li>Vigilant – 방심하지 않는</li>
-    <li>Cajole – 구슬리다</li>
-    <li>Avid – 열심인</li>
-    <li>Rudimentary – 기본적인</li>
-    <li>Wrest – 억지로 빼앗다</li>
-  </ul>
-  <a href="index.html">← 홈으로</a>
+  <header>
+    <h1>지민 블로그</h1>
+  </header>
+
+  <!-- ✅ 여기 탭 메뉴(nav)를 추가 -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="words.html">Words</a>
+  </nav>
+
+  <div class="container">
+    <article>
+      <h2>면담록 2024-7-16</h2>
+      <p>1. 음악 - 나는 피아노를 연주할 때 처음에는 안 되지만 연습함으로써 곡을 완성하는 과정에서 기쁨을 느낀다. 그게 내가 피아노를 계속 하고 싶은 이유이다.
+        하지만 오랫동안 연습하지 않았더니 잊어간다. 그래서 피아노 연습이 필요하다. (피아노를 사게 되면)<br><br>
+        2. 운동 - 미국에서는 농구를 많이 한다고 들었다. 그래서 나는 학교에서 친구를 사귀기 위해 농구를 연습할 것이다.
+        드리블 기술과 슛 기술을 연습할 것이다. (새누리 교회 농구코트)<br><br>
+        3. 공부 - 일단 영어가 되어야 하므로 로컬 교회에서 사람들에게 말을 걸어볼 것이다. 그렇게 자꾸 대화하다 보면 어느 정도 될 것이다.
+        다른 과목은 책을 부쳤으므로 도착하면 읽으며 공부할 것이다.</p>
+    </article>
+
+    <article>
+      <h2>Second Post</h2>
+      <p>This is the content of the second post. Thanks for visiting!</p>
+    </article>
+  </div>
 </body>
 </html>
-
